@@ -1,0 +1,79 @@
+body{
+    margin: 0 auto;
+    width: 960px;
+    height: 2000px;
+    font-family: 'Open Sans', sans-serif;
+    }
+    header{
+    width: 960px;
+    height: 100px;
+    background-image:url(coffee-beans.jpg);
+    }
+    h1{
+    font-size: 50px;
+    color: rgba(256, 256, 256, .8);
+    padding-left: 30px;
+    padding-top: 10px;
+    }
+    nav{
+    width: 960px;
+    height: 40px;
+    background-color: brown;
+    margin-top: 2px;
+    }
+    ul{
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+    list-style-type: none;
+    overflow: hidden;
+    }
+    li{
+    display: inline;
+    float: left;
+    width: 160px;
+    }
+    li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    height: 26px;
+    font-weight: bold;
+    }
+    li a:hover{
+    background-color: black;
+    }
+    h2{
+    color: brown;
+    font-size: 36px;
+    }
+    aside{
+    width: 280px;
+    height: 300;
+    float: right;
+    background-color: tan;
+    overflow: hidden;
+    margin-left: 20px;
+    padding: 20px;
+    }
+    }
+    form{
+    width: 600px;
+    height: 700px;
+    font-size: 16px;
+    }
+    footer{
+    height: 100px;
+    }
+    footer li{
+    background-color: white;
+    }
+    footer li a{
+    color: grey;
+    }
+    footer li a:hover{
+    color: black;
+    background-color: white;
+    }
